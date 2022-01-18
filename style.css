@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&family=Raleway:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,500;1,700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*menu do site*/
+#menu ul {
+	padding:0px;
+	margin:0px;
+	background-color: silver;
+	list-style:none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#menu ul li{ 
+  line-height: 50px;
+  text-align: center;
+}
+
+#menu ul li a {
+	padding: 2px 10px;
+	
+
+	/* visual do link */
+	background-color: silver;
+	color: #333;
+	text-decoration: none;
+	border-bottom:3px solid silver;
+}
+
+#menu ul li a:hover {
+	color: #6D6D6D;
+	border-bottom:3px solid  #2e9dd8;
+  transition: 0.5s;
+}
+
+/*logo imagem*/
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main section {
+  color: white;
+  background: #292929;
+  text-align: center;
+  height: 235px;
+  line-height: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*desenho do programador*/
+.programador{
+  margin-top: -45px;
+}
+/*---fim--*/
+
+section > p{
+  margin-top: 10px;
+}
+
+footer {
+  height: 100px;
+}
+footer h3{
+   text-align: center;
+   margin-top: 25px;
+   font-family: 'Montserrat', sans-serif;
+}
+footer .bi-linkedin {
+  color:rgb(11, 102, 194);
+  margin-left: 42%;
+}
+footer .bi-whatsapp {
+color: rgb(72, 200, 87);
+margin-left: 30px;
+}
+footer a{
+  text-decoration: none;
+}
+footer .bi-instagram{
+  color:rgb(186, 45, 138);
+  margin-left: 30px;
+}
+
+footer .bi-facebook {
+color: rgb(2, 110, 228);
+margin-left: 30px;
+}
+
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+  width:10px;
+  height: 10px;
+  }
+   
+  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+  ::-webkit-scrollbar-track {
+  background:#333;
+  }
+   
+  /* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+  ::-webkit-scrollbar-thumb {
+  background: #2e9dd8;
+  }
+
+/* degrade para a barra vertical */
+::-webkit-scrollbar-thumb {
+  background: #2e9dd8;
+  background: -moz-linear-gradient(top, #333333 0%, #3f69b1 25%, #2e9dd8 50%, #3f69b1 76%, #333333 100%);
+  background: -webkit-linear-gradient(top, #333333 0%,#3f69b1 25%,#2e9dd8 50%,#3f69b1 76%,#333333 100%);
+  background: linear-gradient(to bottom, #333333 0%,#3f69b1 25%,#2e9dd8 50%,#3f69b1 76%,#333333 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#333333',GradientType=0 );
+  }
+   
+  /* degrade para a barra horizontal com a direção do degrade alterada */
+  ::-webkit-scrollbar-thumb:horizontal {
+  background: #2e9dd8;
+  background: -moz-linear-gradient(left, #333333 0%, #3f69b1 25%, #2e9dd8 50%, #3f69b1 76%, #333333 100%);
+  background: -webkit-linear-gradient(left, #333333 0%,#3f69b1 25%,#2e9dd8 50%,#3f69b1 76%,#333333 100%);
+  background: linear-gradient(to right, #333333 0%,#3f69b1 25%,#2e9dd8 50%,#3f69b1 76%,#333333 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#333333',GradientType=0 );
+  }
+  .scroll::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+    }
+     
+    .scroll::-webkit-scrollbar-track {
+    background:#333;
+    }
+     
+    .scroll::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+    }
